@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>(Type a title for your page here)</title>
+<script language="JavaScript">
+<!--
+
+function enable_nama(status)
+{
+status=!status;    
+    document.f1.nama.disabled = status;
+}
+
+function enable_email(status)
+{
+status=!status;    
+    document.f1.email.disabled = status;
+}
+//-->
+</script>
+</head>
+<body onload=enable_nama(false),enable_email(false);>
+
+<form name="f1" method=post>
+<input type="checkbox" name="others" onclick="enable_nama(this.checked)" >Others
+<input type=text name="nama">
+
+<input type="checkbox" name="others" onclick="enable_email(this.checked)" >Others
+<input type=text name="email">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+	margin-bottom: 2rem; 
+	font-size: 60px;
+	font-family: 'Montserrat-semibold';
+}
+
+p{
+	font-family: 'Montserrat-regular';
+}
+
+#wrapper{
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
+
+footer{
+	bottom: 0px;
+	left: 0px;
+}

@@ -1,0 +1,343 @@
+body{
+      font-family: 'Montserrat-bold';
+      font-size: 16px;
+  }
+
+a.dropdown-item:active{
+  background-color: #E6E7E8;
+  color: black;
+}
+
+ .form-control{
+    font-family: 'Montserrat-regular';
+    font-size: 16px;
+    text-align: left;
+ }
+
+ .img-wrapper {
+  position: relative;
+  resize: vertical;
+  width: 100%;
+ }
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 80%;
+  text-align: right;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+#myModal{
+  font-family: 'Montserrat-regular';
+}
+
+#modal-body-header{
+  font-family: 'Montserrat-semibold';
+  text-align: center;
+}
+
+#header-home{
+  font-family: 'Montserrat-bold';
+  color: white;
+  font-size: 18px;
+}
+
+h2#header-detail{
+  font-family: 'Montserrat-semibold';
+  text-align: center;
+  padding:2rem; 
+}
+
+.card{
+  text-align: left;
+}
+
+.card h6{
+  font-family: 'Montserrat-regular';
+      font-size: 16px;
+}
+
+.card p{
+  font-family: 'Montserrat-regular';
+      font-size: 14px;
+}
+
+.card p.card-text #duit{
+  font-family: 'Montserrat-regular';
+  font-size: 7px;
+}
+
+#display-lookbook{
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat-semibold';
+}
+
+#display-lookbook p{
+  font-family: 'Montserrat-regular';
+}
+
+#display-lookbookimg-wrapper{
+  display: block;
+  height: 8rem;
+  margin: auto;
+}
+
+#display-lookbookimg{
+  width: 15rem;
+  padding: auto;
+}
+
+#lookbook-main-body p#judul{
+  font-family: 'Montserrat-semibold';
+  text-align: center;
+  font-size: 35px;
+}
+
+#lookbook-main-body p{
+  font-family: 'Montserrat-regular';
+  font-size: 25px;
+}
+
+#needHelp{
+  font-family: 'Montserrat-regular';
+  background-color: black;
+  padding-top: 1rem;
+  color: white;
+}
+
+#needHelp a{
+  font-size: 12px;
+  color: white;
+}
+
+#regis{
+  font-family: 'Montserrat-regular';
+}
+
+#regis #bawahHead{
+  font-size: 20px;
+
+}
+
+#headRegis{
+  font-size: 50px;
+  color: black;
+  padding-bottom: 0px;
+}
+
+#sidebar-catalogue{
+  font-family: 'Montserrat-medium';
+  border-style: solid;
+  border-width:1px;
+  border-color: #D1D3D4; 
+}
+
+#sidebar-catalogue h5{
+  text-align: left;
+}
+
+#sidebar-catalogue h6{
+  text-align: left;
+  font-family: 'Montserrat-bold';
+}
+
+#list-produk{
+  font-family: 'Montserrat-medium'; 
+}
+
+#liked{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  padding: 6px;
+  margin: 120px auto;
+  cursor: pointer;
+}
+
+ #no{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  visibility: visible;
+  transition: all .1s ease-in;
+}
+#no2{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  transition: all .1s ease-in;
+}
+
+ #yes{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  visibility: visible;
+  transition: all .1s ease-in;
+}
+
+#yes2{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+  transition: all .1s ease-in;
+}
+
+@keyframes myanim{
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+#min{
+  font-size: 12px;
+  border-left: 0px;
+  height: 35px;
+}
+
+#max{
+  font-size: 12px;
+  border-left: 0px;
+  height: 35px;
+}
+
+.card a img:hover {
+  position: relative;
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+h3 #title-user{
+  font-family: 'Montserrat-medium';
+}
+
+ul a.list-profile-side{
+  text-decoration: none;
+}
+
+ul a.list-profile-side-active{
+  text-decoration: none;
+  background-color: #E6E7E8;
+}
+
+ul a.list-profile-side-active li{
+  background-color: #E6E7E8;
+}
+
+ul a.list-profile-side li:hover{
+  transition: 0.6s;
+  background-color: #E6E7E8;
+
+}
+
+h3#my-detail{
+  text-align: center;
+  font-family: 'Montserrat-semibold';
+}
+
+h3#title-favorites{
+  text-align: center;
+  font-family: 'Montserrat-semibold';
+  font-size: 50px;
+}
+
+form.form-profile{
+  font-family: 'Montserrat-regular';
+  font-size: 19px;
+}
+
+form p{
+  font-family: 'Montserrat-regular';
+  font-size: 15px;
+}
+
+h3#header-login{
+  text-align: center;
+}
+
+hr#header-login{
+  border-width: 1.5px;
+}
+
+.card h5#title-card-fav{
+  font-family: 'Montserrat-regular';
+  font-size: 25px;
+}
+
+p#order-summary-body{
+  font-family: 'Montserrat-regular';
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+h3#header-cart{
+  font-family: 'Montserrat-semibold';
+  font-size: 32px;
+  padding-bottom: 0px;
+}
+
+p#list-cart{
+  font-family: 'Montserrat-regular';
+  font-size: 15px;
+  padding-top: 1rem;
+  padding-left: 1rem; 
+}
+
+#container-checkout-body{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #e6e6e6;
+  border-width: 1px;
+  padding: 1rem;
+}
+
+p#shipping-method{
+  font-family: 'Montserrat-semibold';
+  font-size: 15px;
+}
+
+p#manage-lookbook-head{
+  font-family: 'Montserrat-semibold';
+  font-size: 30px;
+}
+
+p#manage-lookbook-body{
+  font-family: 'Montserrat-regular';
+  font-size: 15px;
+}
+
+h1#header-maintenance{
+  font-family: 'Montserrat-medium';
+  font-size: 60px;
+  text-align: center;
+}

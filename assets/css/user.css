@@ -1,0 +1,47 @@
+.media{
+	
+}
+
+h5#media-top{
+	font-family: 'Montserrat-semibold';
+	padding-bottom: 15px;
+}
+
+p#media-content{
+	font-family: 'Montserrat-regular';
+}
+
+.btn{
+	font-family: 'Montserrat-regular';
+}
+
+h5#transaction-form-top{
+	font-family: 'Montserrat-semibold';
+	text-align: center;	
+	padding-top: 35px;
+}
+
+p#transaction-form-accnum{
+	font-family: 'Montserrat-regular';
+	text-align: center;
+	font-size: 35px;
+	padding-bottom: 25px;	
+}
+
+#transaction-form-body{
+	padding: 20px;
+}
+
+#transaction-form-body p{
+	font-family: 'Montserrat-regular';
+	text-align: center;
+}
+
+p#timer{
+	font-family: 'Montserrat-semibold';
+	font-size: 25px;	
+}
+
+form{
+	font-family: 'Montserrat-semibold';
+}

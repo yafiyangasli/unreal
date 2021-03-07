@@ -1,0 +1,115 @@
+body{
+	font-family: 'Montserrat-bold';
+}
+
+h1#header{
+	font-family: 'Montserrat-semibold';
+	font-size: 45px;
+	padding: 35px 35px;
+}
+
+h2{
+	font-family: 'Montserrat-semibold';
+	font-size: 25px;
+}
+
+h2#toggler1{
+	cursor: pointer;
+	padding-bottom: 15px;
+}
+h2#toggler2{
+	cursor: pointer;
+	padding-bottom: 15px;
+}
+h2#toggler3{
+	cursor: pointer;
+	padding-bottom: 15px;
+}
+h2#toggler4{
+	cursor: pointer;
+	padding-bottom: 15px;
+}
+
+#content-1 p{
+	font-family: 'Montserrat-regular';
+}
+
+#content-2 p{
+	font-family: 'Montserrat-regular';
+}
+
+#content-3 p{
+	font-family: 'Montserrat-regular';
+}
+
+#content-4 p{
+	font-family: 'Montserrat-regular';
+}
+
+#content-2{
+	display: none;
+}
+
+#content-3{
+	display: none;
+}
+
+#content-4{
+	display: none;
+}
+
+img#img-maps{
+	padding: auto;
+	max-width: 45px;
+}
+
+i.far{
+	font-size: 45px;
+}
+
+p#head-content{
+	font-family: 'Montserrat-bold';
+	font-size: 55px;
+}
+
+#vl{
+	border-left: 2px solid;
+	border-color: #E6E7E8;
+	height: 100%;
+}
+
+input#nama{
+	border-top:0px ;
+	border-left: 0px;
+	border-right: 0px 
+}
+
+input#email{
+	border-top:0px ;
+	border-left: 0px;
+	border-right: 0px 
+}
+
+input#subject{
+	border-top:0px ;
+	border-left: 0px;
+	border-right: 0px 
+}
+
+select#kategori{
+	border-top:0px ;
+	border-left: 0px;
+	border-right: 0px 
+}
+
+label{
+	font-family: 'Montserrat-regular';
+}
+
+option{
+	font-family: 'Montserrat-regular';	
+}
+
+button.btn{
+	font-family: 'Montserrat-regular';	
+}
